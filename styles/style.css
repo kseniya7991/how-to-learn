@@ -1,13 +1,9 @@
 /*Специальные классы*/
-.section-title, .feynman__title, .header__title, .header__subtitle, .two-columns__paragraph, .table__heading, .table__text, .footer__column-heading {
+.section-title, .feynman__title, .header__title, .header__subtitle, .two-columns__paragraph, .table__heading, .table__text, .footer__column-heading, .section-subtitle {
   margin: 0;
   padding: 0;
 }
 
-.section-subtitle {
-  margin: 0;
-  padding: 0;
-}
 
 .header__link, .feynman__link, .footer__column-link, .logo {
   text-decoration: none;
