@@ -9,15 +9,6 @@ h2 {
   padding: 0;
 }
 
-h3  {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-  line-height: 1.2em;
-  font-size: 18px;
-  color: #2f80ed;
-}
-
 a {
   text-decoration: none;
 }
@@ -37,6 +28,7 @@ a {
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 
 /*Шапка сайта*/
 .header {
@@ -113,16 +105,18 @@ a {
   background-color: #2f80ed;
   z-index: 4;
 }
+/*Конец шапки сайта*/
 
 
+/*Контентная часть */
 .content {
   display: flex;
   flex-direction: column;
 
 }
 
-/*Блок description*/
 
+/*Блок description*/
 .description {
   padding-top: 100px;
   width: 80%;
@@ -145,15 +139,18 @@ a {
   width: 175px;
   height: 100%;
   align-self: flex-start;
-
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+  font-size: 18px;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
-
   width: 80%;
   height: 100%;
   min-width: 784px;
-
 }
 
 .two-columns__paragraph {
@@ -202,7 +199,6 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .table__cell {
@@ -216,7 +212,6 @@ a {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
-
 }
 
 .table__text {
@@ -236,6 +231,7 @@ a {
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 867px 637px;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
@@ -296,16 +292,12 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
-
-
 }
 
 .table__cell_theme_dark {
   width: 200px;
   height: auto;
   color: white;
-
   margin-top: 80px;
 }
 
@@ -314,14 +306,12 @@ a {
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 20px;
-
 }
 
 .table__text_theme_dark {
   line-height: 1.2em;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .triangle {
@@ -335,8 +325,9 @@ a {
   z-index: -1;
   right: -210px;
   top: 0;
-
 }
+/* Конец контентной части */
+
 
 /*Подвал сайта */
 
@@ -345,10 +336,8 @@ a {
   background-color: #1f1f1f;
   padding-top: 60px;
   padding-bottom: 40px;
-  height: 100%;
   display: flex;
   align-items: stretch;
-
 }
 
 .footer__columns {
@@ -410,28 +399,21 @@ a {
 
 .footer__column-link {
   color: #fff;
-
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
-  height: 100%;
-
 }
 
 
 .footer__column_content_social {
   display: flex;
-
   flex-direction: column;
   justify-content: flex-start;
 }
 
 
 .footer__social-icon {
-
   height: 100%;
-
   width: 26px;
   background-image: url('../images/facebook_color_white.svg');
   background-size: 16px 16px;
@@ -451,21 +433,4 @@ a {
 .footer__social-icon_inst {
   background-image: url('../images/instagram_color_white.svg');
 }
-
-
-
-
-
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-
-}
+/* Конец подвала сайта*/
