@@ -22,10 +22,6 @@ a {
   text-decoration: none;
 }
 
-.fonts {
-  font-family:  'Helvetica Neue', 'Arial', sans-serif;
-}
-
 .text-bold {
   font-weight: bold;
 }
@@ -50,13 +46,10 @@ a {
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-
-  /* выше установили ограничения для секции */
 }
 
 .logo {
   width: 183px;
-
 }
 
 .logo_place_header {
@@ -350,7 +343,6 @@ a {
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
-  border: 1px solid firebrick;
   padding-top: 60px;
   padding-bottom: 40px;
   height: 100%;
@@ -365,11 +357,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid red;
   color: #fff;
-  height: 100%;
-  align-items: stretch;
-
 }
 
 
@@ -379,8 +367,6 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  border: 1px solid red;
-
 }
 
 .logo_place_footer {
@@ -401,7 +387,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid red;
+
 }
 
 .footer__column-heading {
@@ -424,7 +410,7 @@ a {
 
 .footer__column-link {
   color: #fff;
-  border: 1px solid darkblue;
+
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -436,14 +422,14 @@ a {
 
 .footer__column_content_social {
   display: flex;
-  border: 1px solid red;
+
   flex-direction: column;
   justify-content: flex-start;
 }
 
 
 .footer__social-icon {
-  border: 1px solid blue;
+
   height: 100%;
 
   width: 26px;
