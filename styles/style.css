@@ -1,21 +1,18 @@
 /*Специальные классы*/
-h1 {
+.section-title, .feynman__title, .header__title, .header__subtitle, .two-columns__paragraph, .table__heading, .table__text, .footer__column-heading {
   margin: 0;
   padding: 0;
 }
 
-h2 {
+.section-subtitle {
   margin: 0;
   padding: 0;
 }
 
-a {
+.header__link, .feynman__link, .footer__column-link, .logo {
   text-decoration: none;
 }
 
-.text-bold {
-  font-weight: bold;
-}
 
 
 .page {
@@ -159,11 +156,21 @@ a {
   min-width: 784px;
 }
 
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   padding-bottom: 30px;
 }
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
 
 .two-columns__paragraph_no-padding {
   padding-bottom: 0;
@@ -325,7 +332,7 @@ a {
   font-weight: normal;
 }
 
-.triangle {
+.kaufman__triangle {
   background-image: url('../images/kaufman-triangle.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -401,11 +408,16 @@ a {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  padding-left: 0;
+  padding-top: 0;
   padding-bottom: 16px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  list-style: none;
+  text-align: left;
 }
 
 .footer__column-link {
@@ -413,6 +425,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  padding: 0;
 }
 
 .footer__column-link:hover {
