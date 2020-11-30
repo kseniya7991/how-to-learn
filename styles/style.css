@@ -38,6 +38,7 @@ a {
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  z-index: 0;
 }
 
 .logo {
@@ -50,7 +51,7 @@ a {
   background-image: url('../images/logo_place_header.svg');
   background-repeat: no-repeat;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   left: 64px;
 }
 
@@ -63,7 +64,7 @@ a {
   font-size: 102px;
   font-weight: bold;
   text-align: left;
-  z-index: 10;
+  z-index: 1;
   left: 64px;
 }
 
@@ -74,13 +75,18 @@ a {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 10;
+  z-index: 1;
   left: 64px;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .header__main-illustration {
@@ -93,7 +99,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 5;
+  z-index: 0;
 }
 
 .header__square-pic {
@@ -103,7 +109,7 @@ a {
   right: 0;
   top: 64px;
   background-color: #2f80ed;
-  z-index: 4;
+  z-index: -1;
 }
 /*Конец шапки сайта*/
 
@@ -263,6 +269,11 @@ a {
   color: #2f80ed;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 
 /*Блок kaufman */
 .kaufman {
@@ -274,7 +285,7 @@ a {
   flex-direction: column;
   align-items: center;
   position: relative;
-  z-index: -2;
+  z-index: 1;
   overflow: hidden;
 }
 .section-title_theme_dark {
@@ -404,6 +415,9 @@ a {
   justify-content: flex-start;
 }
 
+.footer__column-link:hover {
+  text-decoration: underline;
+}
 
 .footer__column_content_social {
   display: flex;
