@@ -1,5 +1,6 @@
 /*Специальные классы*/
-.section-title, .feynman__title, .header__title, .header__subtitle, .two-columns__paragraph, .table__heading, .table__text, .footer__column-heading, .section-subtitle {
+.section-title, .feynman__title, .header__title, .header__subtitle, .two-columns__paragraph,
+.table__heading, .table__text, .footer__column-heading, .section-subtitle {
   margin: 0;
   padding: 0;
 }
@@ -49,16 +50,19 @@
 }
 
 .header__title {
-  position: absolute;
+  /*position: absolute; убрано абсолютное позиционирование*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-self: center;
   width: 730px;
   height: auto;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  text-align: left;
+  /*text-align: left;*/
   z-index: 1;
-  left: 64px;
+  padding-left: 64px;
 }
 
 .header__subtitle {
@@ -118,15 +122,15 @@
 /*Блок description*/
 .description {
   padding-top: 100px;
-  width: 80%;
-  /*background-color: yellow;*/
+  /*width: 80%; для two-columns задана верная ширина*/
   margin: auto;
 
 }
 
 .two-columns {
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -141,7 +145,7 @@
   margin: 0;
   padding: 0;
   font-weight: normal;
-  line-height: 1.2em;
+  line-height: 1.2;
   font-size: 18px;
   color: #2f80ed;
 }
@@ -186,7 +190,7 @@
 .section-title {
   width: 60%;
   font-size: 60px;
-  line-height: 1.15em;
+  line-height: 1.15;
   font-weight: bold;
 
   text-align: center;
@@ -217,17 +221,17 @@
 }
 
 .table__heading {
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px; заменено на марджин в table__text */
 }
 
 .table__text {
-  line-height: 1.2em;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 
@@ -244,7 +248,7 @@
 }
 
 .feynman__title {
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   width: 648px;
@@ -316,16 +320,17 @@
 }
 
 .table__heading_theme_dark {
-  line-height: 1.15em;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; заменено на марджин в table-text*/
 }
 
 .table__text_theme_dark {
-  line-height: 1.2em;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 20px;
 }
 
 .kaufman__triangle {
@@ -352,6 +357,7 @@
   padding-bottom: 40px;
   display: flex;
   align-items: stretch;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -423,6 +429,14 @@
   justify-content: flex-start;
   padding: 0;
 }
+
+.footer__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
+
 
 .footer__column-link:hover {
   text-decoration: underline;
