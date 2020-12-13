@@ -1,0 +1,9 @@
+.footer__social-icon {
+  height: 100%;
+  width: 26px;
+  background-image: url('../images/facebook_color_white.svg');
+  background-size: 16px 16px;
+  background-position: left;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}

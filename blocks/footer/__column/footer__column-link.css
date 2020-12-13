@@ -1,0 +1,11 @@
+.footer__column-link {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+}

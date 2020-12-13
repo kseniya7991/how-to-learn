@@ -1,0 +1,6 @@
+.footer__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
