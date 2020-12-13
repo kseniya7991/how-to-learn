@@ -11,5 +11,5 @@
 
 .feynman__link:hover {
   text-decoration: underline;
-  font-weight: bold;
+  transition: .5s;
 }

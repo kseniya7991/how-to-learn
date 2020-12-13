@@ -1,7 +1,6 @@
-
 @import url('normalize.css');
 @import url('../global_css/null_margin.css');
-@import url('../global_css/null_text-decor.css');
+@import url('../global_css/link_decor.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__title/header__title.css');
@@ -52,16 +51,12 @@
 @import url('../blocks/footer/__social-icon/_fb/footer__social-icon_fb.css');
 @import url('../blocks/footer/__social-icon/_inst/footer__social-icon_inst.css');
 @import url('../blocks/footer/__social-icon/_vk/footer__social-icon_vk.css');
+@import url('../blocks/rotation/rotation.css');
+@import url('../blocks/techniques/techniques.css');
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__item/cards__item.css');
 @import url('');
 @import url('');
 @import url('');
-@import url('');
-
-
-
-
-.header__link, .feynman__link, .footer__column-link, .logo {
-  text-decoration: none;
-}
 
 
