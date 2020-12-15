@@ -1,5 +1,6 @@
 .video__iframes {
-  margin: 0 auto;
-  margin-top: 50px;
+  max-width: 1055px;
+  position: relative;
+  margin: 50px auto -60px;
   z-index: 1;
 }
