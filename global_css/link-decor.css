@@ -1,8 +1,8 @@
-.link_decor {
+.link-decor {
   text-decoration: none;
 }
 
-.link_decor:hover {
+.link-decor:hover {
   opacity: 0.7;
   transition: .5s;
 }

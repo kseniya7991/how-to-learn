@@ -1,6 +1,6 @@
 @import url('normalize.css');
-@import url('../global_css/null_margin.css');
-@import url('../global_css/link_decor.css');
+@import url('../global_css/null-margin.css');
+@import url('../global_css/link-decor.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__title/header__title.css');
