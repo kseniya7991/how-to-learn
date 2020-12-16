@@ -8,7 +8,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  /*text-align: left;*/
   z-index: 1;
   padding-left: 64px;
+  margin: 0;
 }
