@@ -40,34 +40,34 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img class="cards__image" alt="Два вида внимания" src="images/cards-attention.png">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" alt="Recall" src="images/cards-recall.png">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" alt="Интерливинг" src="images/cards-interliving.png">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" alt="Вопросы" src="images/cards-question.png">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img class="cards__image" alt="Иллюзия компетентности" src="images/cards-competence.png">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </div>
+          </li>
 
-        </div>
+        </ul>
 
       </section>
       <section class="video">
@@ -76,6 +76,8 @@
         <div class="video__iframes">
           <iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/YJexvcy6UhY"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/km4pOGd_lHw"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -210,12 +212,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="Arzamas" src="images/logo/resources-arzamas.svg"></a>
-          <a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="N + 1" src="images/logo/resources-n1.svg"></a>
-          <a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="STRELKA" src="images/logo/resources-strelka.svg"></a>
-          <a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="ПОЛКА" src="images/logo/resources-polka.svg"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="Arzamas" src="images/logo/resources-arzamas.svg"></a></li>
+          <li><a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="N + 1" src="images/logo/resources-n1.svg"></a></li>
+          <li><a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="STRELKA" src="images/logo/resources-strelka.svg"></a></li>
+          <li><a href="#" target="_blank" class="link-decor"><img class="resources__logo" alt="ПОЛКА" src="images/logo/resources-polka.svg"></a></li>
+        </ul>
       </section>
 
     </main>
@@ -238,9 +240,10 @@
         <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li class="footer__list-item"><a href="#" class="footer__column-link link-decor" target="_blank"><div class="footer__social-icon footer__social-icon_fb"></div>Facebook</a></li>
-            <li class="footer__list-item"><a href="#" class="footer__column-link link-decor" target="_blank"><div class="footer__social-icon footer__social-icon_vk"></div>ВКонтакте</a></li>
-            <li class="footer__list-item"><a href="#" class="footer__column-link link-decor" target="_blank"><div class="footer__social-icon footer__social-icon_inst"></div>Instagram</a></li>
+            <!--<li class="footer__list-item"><a href="#" class="footer__column-link link-decor" target="_blank"><div class="footer__social-icon footer__social-icon_fb"></div>Facebook</a></li>-->
+            <li class="footer__list-item"><a href="#" class="footer__column-link link-decor footer__social-icon_fb" target="_blank">Facebook</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__column-link link-decor footer__social-icon_vk" target="_blank">ВКонтакте</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__column-link link-decor footer__social-icon_inst" target="_blank">Instagram</a></li>
           </ul>
         </nav>
       </div>
